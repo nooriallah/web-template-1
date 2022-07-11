@@ -1,0 +1,119 @@
+header .navbar-expand-md {
+    background-color: rgba(36, 91, 255, 0.59);
+    ;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #FFF;
+    font-weight: bold;
+    font-size: .9rem !important;
+}
+
+/* dorpdown -------------------  */
+.dropdown-menu.show {
+    left: 20%;
+    top: 55px;
+}
+
+
+@media (min-width: 868px) {
+    div#slide1 {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .carousel-caption.d-none.d-md-block {
+        position: absolute;
+        top: 40%;
+        background: rgba(0, 0, 0, 0.267);
+        height: 200px;
+    }
+
+}
+
+div#slide1.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* -------------------about us ------------------------ */
+section.about .page-item .page-link {
+    border: none;
+    border-radius: 3px;
+    /* color: #FFF; */
+}
+
+section.about .page-item.active .page-link {
+    background-color: #007bff;
+}
+
+section.about .nav.nav-pills.mb-3.nav-fill.rounded {
+    background: linear-gradient(to right, #3b3bff, #4a99ff);
+    z-index: 10;
+    width: 95%;
+    margin: auto;
+}
+
+section.about .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #00448d;
+}
+
+section.about .tab-content>.active {
+    display: block;
+    box-shadow: 1px 1px 10px rgb(121, 121, 121);
+    padding-top: 50px;
+    position: relative;
+    margin-top: -50px;
+    z-index: -10;
+    border-radius: 3px;
+}
+
+section.about .tab-pane {
+    min-height: 300px;
+    overflow: auto;
+}
+
+/* ----------- product -------------  */
+section.about .card {
+    border: none;
+    box-shadow: 1px 1px 15px #AAA;
+    transition: all 0.2s ease-in-out;
+}
+
+section.about .card:hover {
+    margin-top: -15px;
+}
+
+#btnSeeProduct {
+    background: linear-gradient(to right, #11cdef, #1171ef);
+    border: none;
+    box-shadow: 1px 1px 10px #999;
+}
+
+#btnSeeProduct:hover {
+    background: linear-gradient(to left, #11cdef, #1171ef);
+}
+
+
+
+/* ------------ team ----------------  */
+div.team .card {
+    border: none;
+    box-shadow: 1px 1px 15px #AAA;
+}
+
+.team .img-avatar {
+    border: 3px solid #EEE;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: -64px auto 7px auto;
+}
+
+.team .img-avatar img {
+    width: 100%;
+    height: 100%;
+}
